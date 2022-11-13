@@ -36,7 +36,7 @@ function RepoCard({ repo }: { repo: IRepo }) {
             className="mt-2 py-2 px-4 mr-2 bg-green-500 rounded hover:shadow-md text-white transition-all"
             onClick={addToFavourite}
           >
-            Добавить
+            Сохранить
           </button>
         )}
 
@@ -45,7 +45,7 @@ function RepoCard({ repo }: { repo: IRepo }) {
             className="mt-2 py-2 px-4 bg-red-500 rounded hover:shadow-md text-white transition-all"
             onClick={removeFromFavourite}
           >
-            Убрать
+            Удалить
           </button>
         )}
       </a>
