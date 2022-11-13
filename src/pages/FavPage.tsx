@@ -19,7 +19,7 @@ function FavPage() {
     return <p className="flex justify-center pt-10">В избранном ничего нет.</p>
 
   return (
-    <div className="flex justify-center pt-10 mx-auto h-screen w-screen">
+    <div className="flex justify-center pt-10 mx-auto">
       <ul className="list-none">
         {favourites?.map((f, index) => (
           <li

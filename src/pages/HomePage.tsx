@@ -27,7 +27,7 @@ function HomePage() {
   }
 
   return (
-    <div className="flex justify-center pt-10 mx-auto h-screen w-screen">
+    <div className="flex justify-center pt-10 mx-auto">
       <div className="relative w-[560px]">
         <input
           type="text"
