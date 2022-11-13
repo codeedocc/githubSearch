@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Navigation() {
   return (
-    <div className="flex justify-between items-center h-[50px] px-5 shadow-md bg-orange-400 text-white">
+    <div className="flex justify-between items-center h-[50px] px-5 shadow-md bg-gray-900 text-white">
       <h3 className="font-bold">Github Поиск</h3>
 
       <span>

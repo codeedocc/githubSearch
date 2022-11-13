@@ -48,7 +48,7 @@ function HomePage() {
               <li
                 onClick={() => clickHandler(user.login)}
                 key={user.id}
-                className="py-2 px-4 hover:bg-orange-400 hover:text-white transition-color cursor-pointer"
+                className="py-2 px-4 hover:bg-gray-900 hover:text-white transition-color cursor-pointer"
               >
                 {user.login}
               </li>
