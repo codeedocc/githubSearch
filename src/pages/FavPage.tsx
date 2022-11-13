@@ -9,7 +9,10 @@ function FavPage() {
   const removeFromFavourite = (e: any, f: any) => {
     e.preventDefault()
 
-    removeFavourite(f)
+    const shouldRemove = window.confirm('Вы уверены?')
+    if (shouldRemove) {
+      removeFavourite(f)
+    }
   }
 
   if (favourites.length === 0)

@@ -27,14 +27,13 @@ function RepoCard({ repo }: { repo: IRepo }) {
       <a href={repo.html_url} target="_blank">
         <h2 className="text-lg font-bold">{repo.full_name}</h2>
         <p className="text-sm">
-          Forks: <span className="font-bold mr-2">{repo.forks}</span>
-          Watchers: <span className="font-bold">{repo.watchers}</span>
+          Сейчас смотрят: <span className="font-bold">{repo.watchers}</span>
         </p>
         <p className="text-sm font-thin">{repo?.description}</p>
 
         {!isFav && (
           <button
-            className="py-2 px-4 mr-2 bg-yellow-400 rounded hover:shadow-md transition-all"
+            className="mt-2 py-2 px-4 mr-2 bg-yellow-400 rounded hover:shadow-md transition-all"
             onClick={addToFavourite}
           >
             Add
@@ -43,7 +42,7 @@ function RepoCard({ repo }: { repo: IRepo }) {
 
         {isFav && (
           <button
-            className="py-2 px-4 bg-red-400 rounded hover:shadow-md transition-all"
+            className="mt-2 py-2 px-4 bg-red-400 rounded hover:shadow-md transition-all"
             onClick={removeFromFavourite}
           >
             Remove
