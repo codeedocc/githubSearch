@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/favourites" element={<FavPage />} />
+        <Route path="/githubSearch" element={<HomePage />} />
+        <Route path="/githubSearch/favourites" element={<FavPage />} />
       </Routes>
     </BrowserRouter>
   )

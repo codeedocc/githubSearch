@@ -7,10 +7,10 @@ function Navigation() {
       <h3 className="font-bold">Github Поиск</h3>
 
       <span>
-        <Link to="/" className="mr-2">
+        <Link to="/githubSearch" className="mr-2">
           Главная
         </Link>
-        <Link to="/favourites">Избранное</Link>
+        <Link to="/githubSearch/favourites">Избранное</Link>
       </span>
     </div>
   )
