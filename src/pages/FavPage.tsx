@@ -33,7 +33,7 @@ function FavPage() {
                 </span>
               </p>
               <button
-                className="mt-2 py-2 px-4 bg-red-400 rounded hover:shadow-md transition-all"
+                className="mt-2 py-2 px-4 bg-red-500 rounded hover:shadow-md text-white transition-all"
                 onClick={(e) => removeFromFavourite(e, f)}
               >
                 Удалить
